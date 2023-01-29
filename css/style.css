@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Unbounded', cursive;
+}
+
+.center-caption{
+	top: 30%;
+	height: auto;
+	max-height: 120px;
+}
+
+.big-text{
+	color: white;
+	font-size: 36pt;
+	font-weight: 900;
+}
+
+.big-text-black{
+	color: black;
+	font-size: 24pt;
+	font-weight: 900;
+}
+
+.spacer{
+	height: 15px;
+	background-color: dimgrey;
+}
+
+.two-box{
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.center-dist{
+	align-self: center;
+	color: white;
+	font-size: 16pt;
+}
+
+i{
+	color: white;
+
+}
+
+@media (max-width: 576px){
+	.center-caption{
+		top: 5%;
+	}
+
+	.big-text{
+		font-size: 24pt;
+	}
+
+	.center-dist{
+		text-align: center;
+	}
+}
